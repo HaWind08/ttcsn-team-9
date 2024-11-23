@@ -19,7 +19,7 @@
     <!-- header -->
     <header class="header">
         <div class="container-xl">
-            <div class="row align-items-center">
+            <div class="row align-items-center header-pc">
                 <div class="col-3 p-0">
                     <a href="/" class="header-logo">Team Nine</a>
                 </div>
@@ -50,6 +50,38 @@
                 </div>
                 <div class="line"></div>
             </div>
+            <div class="header-mobile">
+                <div class="header-mtop">
+                    <div class="logo">
+                        <a href="/" class="header-logo">Team Nine</a>
+                    </div>
+                    <div class="function">
+                        <a href="#" class="login">
+                            <i class="fa-solid fa-user"></i>
+                            <span class="header-text">Đăng nhập</span>
+                        </a>
+                        <a href="#" class="register">
+                            <i class="fa-solid fa-user-plus"></i>
+                            <span class="header-text">Đăng ký</span>
+                        </a>
+                        <a href="#" class="cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="header-text">Giỏ hàng (0)</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="header-mbottom search">
+                    <form action="/search" method="GET">
+                        <div class="form-group d-flex align-items-center">
+                            <input type="text" class="form-control input-search" placeholder="Siêu phẩm Iphone 16 Pro"
+                                name="keyword">
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
             <div class="row">
                 <ul class="header-menu">
                     <li><a href="#"><i class="fa-solid fa-mobile"></i> Điện thoại</a></li>
@@ -68,12 +100,12 @@
             <div class="row">
                 <div class="col-3 pr-3 pl-0">
                     <ul class="category">
-                        <li><a href="#"><i class="fa-brands fa-apple"></i> Apple</a></li>
-                        <li><a href="#"><i class="fa-solid fa-s"></i> Samsung</a></li>
-                        <li><a href="#"><i class="fa-brands fa-xing"></i> Xiaomi</a></li>
-                        <li><a href="#"><i class="fa-brands fa-opera"></i> Oppo</a></li>
-                        <li><a href="#"><i class="fa-brands fa-vimeo"></i> Vivo</a></li>
-                        <li><a href="#"><i class="fa-solid fa-registered"></i> Realme</a></li>
+                        <li><a href="#"><i class="fa-brands fa-apple"></i><span>Apple</span></a></li>
+                        <li><a href="#"><i class="fa-solid fa-s"></i><span>Samsung</span></a></li>
+                        <li><a href="#"><i class="fa-brands fa-xing"></i><span>Xiaomi</span></a></li>
+                        <li><a href="#"><i class="fa-brands fa-opera"></i><span>Oppo</span></a></li>
+                        <li><a href="#"><i class="fa-brands fa-vimeo"></i><span>Vivo</span></a></li>
+                        <li><a href="#"><i class="fa-solid fa-registered"></i><span>Realme</span></a></li>
                         <li>
                             <a href="#" class="category-none">
                                 <i class="fa-solid fa-newspaper"></i> Tin tức
