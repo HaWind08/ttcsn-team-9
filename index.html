@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Team Nine</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container-xl">
+            <div class="row align-items-center">
+                <div class="col-3 p-0">
+                    <a href="/" class="header-logo">Team Nine</a>
+                </div>
+                <div class="col-5 search px-0">
+                    <form action="/search" method="GET">
+                        <div class="form-group d-flex align-items-center">
+                            <input type="text" class="form-control input-search" placeholder="Siêu phẩm Iphone 16 Pro"
+                                name="keyword">
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-4 p-0 text-right">
+                    <a href="#" class="login">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="header-text">Đăng nhập</span>
+                    </a>
+                    <a href="#" class="register ml-2">
+                        <i class="fa-solid fa-user-plus"></i>
+                        <span class="header-text">Đăng ký</span>
+                    </a>
+                    <a href="#" class="cart ml-2">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="header-text">Giỏ hàng (0)</span>
+                    </a>
+                </div>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <ul class="header-menu">
+                    <li><a href="#"><i class="fa-solid fa-mobile"></i> Điện thoại</a></li>
+                    <li><a href="#"><i class="fa-solid fa-newspaper"></i> Tin tức</a></li>
+                    <li><a href="#"><i class="fa-solid fa-calendar-days"></i> Sự kiện</a></li>
+                    <li><a href="#"><i class="fa-solid fa-shield"></i> Tra cứu bảo hành</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="container-xl container-lg">
+            <div class="row">
+                <div class="col-3 pr-3 pl-0">
+                    <ul class="category">
+                        <li><a href="#"><i class="fa-brands fa-apple"></i> Apple</a></li>
+                        <li><a href="#"><i class="fa-solid fa-s"></i> Samsung</a></li>
+                        <li><a href="#"><i class="fa-brands fa-xing"></i> Xiaomi</a></li>
+                        <li><a href="#"><i class="fa-brands fa-opera"></i> Oppo</a></li>
+                        <li><a href="#"><i class="fa-brands fa-vimeo"></i> Vivo</a></li>
+                        <li><a href="#"><i class="fa-solid fa-registered"></i> Realme</a></li>
+                        <li>
+                            <a href="#" class="category-none">
+                                <i class="fa-solid fa-newspaper"></i> Tin tức
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="category-none">
+                                <i class="fa-solid fa-calendar-days"></i> Sự kiện
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-9 p-0">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="assets/images/banner-1.webp" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/banner-2.webp" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/banner-3.webp" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/banner-4.webp" alt=""></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End banner -->
+
+    <!-- hot sale -->
+    <div class="hot-sale">
+        <div class="container-xl container-lg">
+            <div class="row">
+                <div class="col-12 text-center pt-2">
+                    <img src="assets/images/hot-sale.gif" alt="">
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 pr-0">
+                    <div class="hotsale-item hotsale-item-one">
+                        <div class="hotsale-image text-center">
+                            <img src="assets/images/samsung-s23_1.webp" alt="">
+                        </div>
+                        <h3 class="hotsale-name">Samsung Galaxy S23 8GB 128GB</h3>
+                        <div class="hotsale-price">
+                            <div class="hotsale-price-new">13.690.000đ</div>
+                            <div class="hotsale-price-old">22.990.000đ</div>
+                        </div>
+                        <div class="hotsale-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="hotsale-left">Giảm 40%</div>
+                        <div class="hotsale-right">Trả góp 0%</div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 pr-0">
+                    <div class="hotsale-item hotsale-item-two">
+                        <div class="hotsale-image text-center">
+                            <img src="assets/images/samsung-s23-ulatra_2_.webp" alt="">
+                        </div>
+                        <h3 class="hotsale-name">Samsung Galaxy S23 Ultra 12GB 512GB </h3>
+                        <div class="hotsale-price">
+                            <div class="hotsale-price-new">24.490.000đ</div>
+                            <div class="hotsale-price-old">36.990.000đ</div>
+                        </div>
+                        <div class="hotsale-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="hotsale-left">Giảm 36%</div>
+                        <div class="hotsale-right">Trả góp 0%</div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 pr-0">
+                    <div class="hotsale-item hotsale-item-three">
+                        <div class="hotsale-image text-center">
+                            <img src="assets/images/oppo-reno10-pro-plus-tim.webp" alt="">
+                        </div>
+                        <h3 class="hotsale-name">OPPO Reno10 Pro+ 5G 12GB 256GB</h3>
+                        <div class="hotsale-price">
+                            <div class="hotsale-price-new">13.790.000đ</div>
+                            <div class="hotsale-price-old">19.990.000đ</div>
+                        </div>
+                        <div class="hotsale-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="hotsale-left">Giảm 31%</div>
+                        <div class="hotsale-right">Trả góp 0%</div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="hotsale-item">
+                        <div class="hotsale-image text-center">
+                            <img src="assets/images/samsung-s23-fe.webp" alt="">
+                        </div>
+                        <h3 class="hotsale-name">Samsung Galaxy S23 FE 5G 8GB 128GB</h3>
+                        <div class="hotsale-price">
+                            <div class="hotsale-price-new">10.390.000đ</div>
+                            <div class="hotsale-price-old">14.890.000đ</div>
+                        </div>
+                        <div class="hotsale-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="hotsale-left">Giảm 26%</div>
+                        <div class="hotsale-right">Trả góp 0%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End hot sale -->
+
+    <!-- product features -->
+    <div class="product-features">
+        <div class="container-xl container-lg">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between align-items-center">
+                    <h2 class="product-title">ĐIỆN THOẠI NỔI BẬT NHẤT</h2>
+                    <a href="#" class="see-all-features">Xem tất cả</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 pr-0 col-mr">
+                    <a href="#" class="product-features-item">
+                        <div class="product-features-image text-center">
+                            <img src="assets/images/samsung-s23_1.webp" alt="">
+                        </div>
+                        <h3 class="product-features-name">Samsung Galaxy S23 8GB 128GB</h3>
+                        <div class="product-features-price">
+                            <div class="product-features-price-new">13.690.000đ</div>
+                            <div class="product-features-price-old">22.990.000đ</div>
+                        </div>
+                        <div class="product-features-coupon">
+                            Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng
+                        </div>
+                        <div class="product-features-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-features-left">Giảm 40%</div>
+                        <div class="product-features-right">Trả góp 0%</div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 pad-right">
+                    <a href="#" class="product-features-item">
+                        <div class="product-features-image text-center">
+                            <img src="assets/images/samsung-s23_1.webp" alt="">
+                        </div>
+                        <h3 class="product-features-name">Samsung Galaxy S23 8GB 128GB</h3>
+                        <div class="product-features-price">
+                            <div class="product-features-price-new">13.690.000đ</div>
+                            <div class="product-features-price-old">22.990.000đ</div>
+                        </div>
+                        <div class="product-features-coupon">
+                            Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng
+                        </div>
+                        <div class="product-features-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-features-left">Giảm 40%</div>
+                        <div class="product-features-right">Trả góp 0%</div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 pr-0 col-mr">
+                    <a href="#" class="product-features-item">
+                        <div class="product-features-image text-center">
+                            <img src="assets/images/samsung-s23_1.webp" alt="">
+                        </div>
+                        <h3 class="product-features-name">Samsung Galaxy S23 8GB 128GB</h3>
+                        <div class="product-features-price">
+                            <div class="product-features-price-new">13.690.000đ</div>
+                            <div class="product-features-price-old">22.990.000đ</div>
+                        </div>
+                        <div class="product-features-coupon">
+                            Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng
+                        </div>
+                        <div class="product-features-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-features-left">Giảm 40%</div>
+                        <div class="product-features-right">Trả góp 0%</div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <a href="#" class="product-features-item">
+                        <div class="product-features-image text-center">
+                            <img src="assets/images/samsung-s23_1.webp" alt="">
+                        </div>
+                        <h3 class="product-features-name">Samsung Galaxy S23 8GB 128GB</h3>
+                        <div class="product-features-price">
+                            <div class="product-features-price-new">13.690.000đ</div>
+                            <div class="product-features-price-old">22.990.000đ</div>
+                        </div>
+                        <div class="product-features-coupon">
+                            Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng
+                        </div>
+                        <div class="product-features-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-features-left">Giảm 40%</div>
+                        <div class="product-features-right">Trả góp 0%</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End product features -->
+
+    <!-- product -->
+    <div class="product mt-5">
+        <div class="container-xl container-lg">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between align-items-center">
+                    <h2 class="product-title">SẢN PHẨM MỚI</h2>
+                    <a href="#" class="see-all-product">Xem tất cả</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pad-right-1">
+                    <a href="#" class="product-item">
+                        <div class="product-image text-center">
+                            <img src="assets/images/samsung-s23_1.webp" alt="">
+                        </div>
+                        <h3 class="product-name">Samsung Galaxy S23 8GB 128GB</h3>
+                        <div class="product-price">
+                            <div class="product-price-new">13.690.000đ</div>
+                            <div class="product-price-old">22.990.000đ</div>
+                        </div>
+                        <div class="product-coupon">
+                            Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng
+                        </div>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-left">Giảm 40%</div>
+                        <div class="product-right">Trả góp 0%</div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pad-right-2">
+                    <a href="#" class="product-item">
+                        <div class="product-image text-center">
+                            <img src="assets/images/samsung-s23_1.webp" alt="">
+                        </div>
+                        <h3 class="product-name">Samsung Galaxy S23 8GB 128GB</h3>
+                        <div class="product-price">
+                            <div class="product-price-new">13.690.000đ</div>
+                            <div class="product-price-old">22.990.000đ</div>
+                        </div>
+                        <div class="product-coupon">
+                            Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng
+                        </div>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-left">Giảm 40%</div>
+                        <div class="product-right">Trả góp 0%</div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pad-right-1">
+                    <a href="#" class="product-item">
+                        <div class="product-image text-center">
+                            <img src="assets/images/samsung-s23_1.webp" alt="">
+                        </div>
+                        <h3 class="product-name">Samsung Galaxy S23 8GB 128GB</h3>
+                        <div class="product-price">
+                            <div class="product-price-new">13.690.000đ</div>
+                            <div class="product-price-old">22.990.000đ</div>
+                        </div>
+                        <div class="product-coupon">
+                            Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng
+                        </div>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-left">Giảm 40%</div>
+                        <div class="product-right">Trả góp 0%</div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <a href="#" class="product-item">
+                        <div class="product-image text-center">
+                            <img src="assets/images/samsung-s23_1.webp" alt="">
+                        </div>
+                        <h3 class="product-name">Samsung Galaxy S23 8GB 128GB</h3>
+                        <div class="product-price">
+                            <div class="product-price-new">13.690.000đ</div>
+                            <div class="product-price-old">22.990.000đ</div>
+                        </div>
+                        <div class="product-coupon">
+                            Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng
+                        </div>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-left">Giảm 40%</div>
+                        <div class="product-right">Trả góp 0%</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End product -->
+
+    <!-- accessory -->
+    <div class="accessory">
+        <div class="container-xl container-lg">
+            <div class="row mt-5">
+                <div class="col-12 d-flex justify-content-between align-items-center">
+                    <h2 class="accessory-title">PHỤ KIỆN</h2>
+                    <a href="#" class="see-all-accessory">Xem tất cả</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 pad-right-1">
+                    <a href="#" class="accessory-item">
+                        <div class="accessory-image text-center">
+                            <img src="assets/images/cu-sac-nhanh-apple-iphone-20w.avif" alt="">
+                        </div>
+                        <h3 class="accessory-name">Củ sạc nhanh Apple iPhone 20W Type-C Chính Hãng</h3>
+                        <div class="accessory-price">
+                            <div class="accessory-price-new">470.000đ</div>
+                            <div class="accessory-price-old">790.000đ</div>
+                        </div>
+                        <div class="accessory-coupon">
+                            Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng
+                        </div>
+                        <div class="accessory-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="accessory-left">Giảm 40%</div>
+                        <div class="accessory-right">Trả góp 0%</div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 pad-right-2">
+                    <a href="#" class="accessory-item">
+                        <div class="accessory-image text-center">
+                            <img src="assets/images/cu-sac-nhanh-apple-iphone-20w.avif" alt="">
+                        </div>
+                        <h3 class="accessory-name">Củ sạc nhanh Apple iPhone 20W Type-C Chính Hãng</h3>
+                        <div class="accessory-price">
+                            <div class="accessory-price-new">470.000đ</div>
+                            <div class="accessory-price-old">790.000đ</div>
+                        </div>
+                        <div class="accessory-coupon">
+                            Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng
+                        </div>
+                        <div class="accessory-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="accessory-left">Giảm 40%</div>
+                        <div class="accessory-right">Trả góp 0%</div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 pad-right-1">
+                    <a href="#" class="accessory-item">
+                        <div class="accessory-image text-center">
+                            <img src="assets/images/cu-sac-nhanh-apple-iphone-20w.avif" alt="">
+                        </div>
+                        <h3 class="accessory-name">Củ sạc nhanh Apple iPhone 20W Type-C Chính Hãng</h3>
+                        <div class="accessory-price">
+                            <div class="accessory-price-new">470.000đ</div>
+                            <div class="accessory-price-old">790.000đ</div>
+                        </div>
+                        <div class="accessory-coupon">
+                            Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng
+                        </div>
+                        <div class="accessory-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="accessory-left">Giảm 40%</div>
+                        <div class="accessory-right">Trả góp 0%</div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                    <a href="#" class="accessory-item">
+                        <div class="accessory-image text-center">
+                            <img src="assets/images/cu-sac-nhanh-apple-iphone-20w.avif" alt="">
+                        </div>
+                        <h3 class="accessory-name">Củ sạc nhanh Apple iPhone 20W Type-C Chính Hãng</h3>
+                        <div class="accessory-price">
+                            <div class="accessory-price-new">470.000đ</div>
+                            <div class="accessory-price-old">790.000đ</div>
+                        </div>
+                        <div class="accessory-coupon">
+                            Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng
+                        </div>
+                        <div class="accessory-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="accessory-left">Giảm 40%</div>
+                        <div class="accessory-right">Trả góp 0%</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End accessory -->
+
+    <!-- customer -->
+    <div class="customer">
+        <div class="container-xl">
+            <div class="row text-center">
+                <p class="customer-title">Cảm ơn HÀNG NGÀN người nổi tiếng cùng HÀNG TRIỆU khách hàng đã và đang ủng hộ
+                    chúng tôi
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-3 pad-right-1">
+                    <div class="customer-image">
+                        <img src="assets/images/customer-1.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-3 pad-right-2">
+                    <div class="customer-image">
+                        <img src="assets/images/customer-2.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-3 pad-right-1">
+                    <div class="customer-image">
+                        <img src="assets/images/customer-3.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-3">
+                    <div class="customer-image">
+                        <img src="assets/images/customer-4.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End customer -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 pad-left-0">
+                    <h3 class="footer-title">Về chúng tôi</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">Giới thiệu về công ty</a></li>
+                        <li><a href="#">Liên hệ hợp tác kinh doanh (B2B)</a></li>
+                        <li><a href="#">Danh sách cửa hàng</a></li>
+                        <li><a href="#">Tuyển dụng mới nhất</a></li>
+                        <li><a href="#">Hướng dẫn mua hàng Online</a></li>
+                        <li><a href="#">Hướng dẫn mua hàng trả góp</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                    <h3 class="footer-title">Chính sách</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Chính sách bán hàng</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Chính sách sử dụng</a></li>
+                        <li><a href="#">Chính sách kiểm hàng</a></li>
+                        <li><a href="#">Trung tâm bảo hành Apple tại Việt Nam</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                    <h3 class="footer-title">Tổng đài hỗ trợ (Miễn phí)</h3>
+                    <div class="contact">
+                        <div class="contact-title">Mua ngay:</div>
+                        <div class="contact-phone">1800.6018</div>
+                    </div>
+                    <div class="contact">
+                        <div class="contact-title">Bảo hành:</div>
+                        <div class="contact-phone">1800.6729</div>
+                    </div>
+                    <div class="contact">
+                        <div class="contact-title">Góp ý:</div>
+                        <div class="contact-phone">1800.6306</div>
+                    </div>
+                    <h3 class="footer-title mt-3">Đối tác của chúng tôi</h3>
+                    <div class="partner">
+                        <a href=""><img src="assets/images/contact-1.svg" alt=""></a>
+                        <a href=""><img src="assets/images/contact-2.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 pr-0">
+                    <h3 class="footer-title">Kết nối với chúng tôi</h3>
+                    <ul class="social">
+                        <li><a href="#"><img src="assets/images/zalo.svg" alt=""></a></li>
+                        <li><a href="#"><img src="assets/images/fb.svg" alt=""></a></li>
+                        <li><a href="#"><img src="assets/images/ins.svg" alt=""></a></li>
+                        <li><a href="#"><img src="assets/images/yt.svg" alt=""></a></li>
+                        <li><a href="#"><img src="assets/images/tik.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
+</body>
+
+</html>
